@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div id="weather-container">
+        <h2>Weather</h2>
+        <input type="text" id="city" placeholder="Enter city">
+        <button onclick="doub()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>
+
+    <div style="width: 300px; height: 300px"></div>
+
+    <div id="map-test" style="width: 600px; height: 400px"></div>
+    <!-- <script src="./script.js"></script> -->
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU">
+	</script>
+    
+    <script src="./server.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
